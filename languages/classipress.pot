@@ -1,17 +1,28 @@
-# Copyright (C) 2016 AppThemes
+# Copyright (C) 2017 AppThemes
 # This file is distributed under the GNU General Public License v2 or later.
 msgid ""
 msgstr ""
-"Project-Id-Version: ClassiPress 3.5.8\n"
+"Project-Id-Version: ClassiPress 3.6.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-12-15 06:59:48+00:00\n"
+"POT-Creation-Date: 2017-11-21 08:59:16+00:00\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2016-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: 2017-MO-DA HO:MI+ZONE\n"
 "Last-Translator: AppThemes\n"
 "Language-Team: AppThemes\n"
 "X-Generator: grunt-wp-i18n 0.5.4\n"
+"X-Poedit-KeywordsList: "
+"__;_e;_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;_n_noop:1,2;_nx_noop:1,2,3c;esc_"
+"attr__;esc_html__;esc_attr_e;esc_html_e;esc_attr_x:1,2c;esc_html_x:1,2c;\n"
+"Language: en\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Country: United States\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-Bookmarks: \n"
+"X-Textdomain-Support: yes\n"
 
 #: 404.php:28
 msgid "Whoops! Page Not Found."
@@ -194,26 +205,26 @@ msgstr ""
 msgid "Legend"
 msgstr ""
 
-#: dashboard-orders.php:36 includes/functions.php:932
-#: includes/payments/order-class.php:665 includes/payments.php:680
+#: dashboard-orders.php:36 includes/functions.php:934
+#: includes/payments/order-class.php:668 includes/payments.php:680
 msgid "Pending"
 msgstr ""
 
-#: dashboard-orders.php:37 includes/functions.php:925
-#: includes/payments/escrow/order-escrow-class.php:97
+#: dashboard-orders.php:37 includes/functions.php:927
+#: includes/payments/escrow/order-escrow-class.php:101
 #: includes/payments/gateways/paypal/paypal.php:203
-#: includes/payments/order-class.php:666 includes/payments.php:681
+#: includes/payments/order-class.php:669 includes/payments.php:681
 msgid "Failed"
 msgstr ""
 
-#: dashboard-orders.php:38 includes/functions.php:920
-#: includes/payments/escrow/order-escrow-class.php:100
+#: dashboard-orders.php:38 includes/functions.php:922
+#: includes/payments/escrow/order-escrow-class.php:104
 #: includes/payments/gateways/paypal/paypal.php:200
-#: includes/payments/order-class.php:667 includes/payments.php:682
+#: includes/payments/order-class.php:670 includes/payments.php:682
 msgid "Completed"
 msgstr ""
 
-#: dashboard-orders.php:39 includes/payments/order-class.php:668
+#: dashboard-orders.php:39 includes/payments/order-class.php:671
 #: includes/payments.php:683
 msgid "Activated"
 msgstr ""
@@ -275,18 +286,7 @@ msgstr ""
 msgid "You don't have any Orders, yet."
 msgstr ""
 
-#: examples/classipress-child/includes/child-views.php:6
-#: includes/widgets.php:706
-msgid "Featured Ads"
-msgstr ""
-
-#: examples/classipress-child/tpl-featured-ads-home.php:11
-msgid "There are currently %s featured ad"
-msgid_plural "There are currently %s featured ads"
-msgstr[0] ""
-msgstr[1] ""
-
-#: examples/classipress-child/tpl-featured-ads-home.php:27 featured.php:44
+#: featured.php:44
 msgid "Featured Listings"
 msgstr ""
 
@@ -308,7 +308,7 @@ msgid "Cost Per Listing"
 msgstr ""
 
 #: form-listing-category-preview.php:44 form-listing-details.php:40
-#: includes/admin/listing-list.php:40 includes/core.php:85
+#: includes/admin/listing-list.php:40
 msgid "Category"
 msgstr ""
 
@@ -412,7 +412,7 @@ msgstr ""
 msgid "Purchase a Membership Pack"
 msgstr ""
 
-#: form-membership-packages.php:41 framework/admin/class-system-info.php:120
+#: form-membership-packages.php:41 framework/admin/class-system-info.php:116
 #: includes/admin/options.php:1020 includes/admin/options.php:1276
 #: includes/admin/package-list.php:31 includes/admin/package-list.php:118
 #: includes/admin/package-single.php:27 includes/admin/package-single.php:129
@@ -559,14 +559,17 @@ msgstr ""
 msgid "Docs"
 msgstr ""
 
-#: framework/admin/class-meta-box.php:80
-#: framework/admin/class-tabs-page.php:156 includes/admin/options.php:483
+#: framework/admin/class-meta-box.php:81
+#: framework/admin/class-tabs-page.php:156
+#: framework/admin/class-taxonomy-meta-box.php:501
+#: framework/admin/class-taxonomy-meta-box.php:559
+#: includes/admin/options.php:483
 msgid "Click for more info"
 msgstr ""
 
 #: framework/admin/class-settings.php:14 framework/admin/class-settings.php:15
 #: framework/scb/AdminPage.php:519 includes/admin/settings.php:20
-#: includes/payments/admin/settings.php:18
+#: includes/payments/admin/settings.php:20
 #: includes/payments/escrow/admin/settings.php:54
 msgid "Settings"
 msgstr ""
@@ -586,371 +589,371 @@ msgstr ""
 #: framework/admin/class-system-info.php:90
 #: includes/admin/listing-single.php:133 includes/admin/package-single.php:182
 #: includes/admin/settings.php:333 includes/admin/settings.php:1081
-#: includes/payments/admin/settings.php:116
+#: includes/payments/admin/settings.php:122
 #: includes/payments/escrow/admin/settings.php:58
 msgid "Yes"
 msgstr ""
 
 #: framework/admin/class-system-info.php:105
-#: framework/admin/class-system-info.php:458
+#: framework/admin/class-system-info.php:511
 msgid "Cron Jobs"
 msgstr ""
 
-#: framework/admin/class-system-info.php:117
-msgid "Theme Info"
-msgstr ""
-
-#: framework/admin/class-system-info.php:123
+#: framework/admin/class-system-info.php:119
 msgid "The name of the current active theme."
 msgstr ""
 
-#: framework/admin/class-system-info.php:130
-#: framework/admin/class-system-info.php:545 includes/admin/dashboard.php:85
+#: framework/admin/class-system-info.php:126
+#: framework/admin/class-system-info.php:598 includes/admin/dashboard.php:85
 msgid "Version"
 msgstr ""
 
-#: framework/admin/class-system-info.php:133
+#: framework/admin/class-system-info.php:129
 msgid "The version of the current active theme."
 msgstr ""
 
-#: framework/admin/class-system-info.php:140
+#: framework/admin/class-system-info.php:136
 msgid "Author URL"
 msgstr ""
 
-#: framework/admin/class-system-info.php:143
+#: framework/admin/class-system-info.php:139
 msgid "The theme developers url."
 msgstr ""
 
-#: framework/admin/class-system-info.php:150
+#: framework/admin/class-system-info.php:146
 msgid "Theme Path"
 msgstr ""
 
-#: framework/admin/class-system-info.php:153
+#: framework/admin/class-system-info.php:149
 msgid "The path of the current active theme."
 msgstr ""
 
-#: framework/admin/class-system-info.php:160
+#: framework/admin/class-system-info.php:156
 msgid "Child Theme"
 msgstr ""
 
-#: framework/admin/class-system-info.php:163
+#: framework/admin/class-system-info.php:159
 msgid "Check if a child theme is active."
 msgstr ""
 
-#: framework/admin/class-system-info.php:164
+#: framework/admin/class-system-info.php:160
 msgid "Using parent theme %s v%s"
 msgstr ""
 
-#: framework/admin/class-system-info.php:174
-msgid "WordPress Info"
+#: framework/admin/class-system-info.php:177
+msgid "Theme Info"
 msgstr ""
 
-#: framework/admin/class-system-info.php:177
+#: framework/admin/class-system-info.php:184
 msgid "Home URL"
 msgstr ""
 
-#: framework/admin/class-system-info.php:180
+#: framework/admin/class-system-info.php:187
 msgid "The url of your website's homepage."
 msgstr ""
 
-#: framework/admin/class-system-info.php:187
+#: framework/admin/class-system-info.php:194
 msgid "Site URL"
 msgstr ""
 
-#: framework/admin/class-system-info.php:190
+#: framework/admin/class-system-info.php:197
 msgid "The url of your WordPress install."
 msgstr ""
 
-#: framework/admin/class-system-info.php:197
+#: framework/admin/class-system-info.php:204
 msgid "WP Version"
 msgstr ""
 
-#: framework/admin/class-system-info.php:200
+#: framework/admin/class-system-info.php:207
 msgid "The version of WordPress installed."
 msgstr ""
 
-#: framework/admin/class-system-info.php:207
+#: framework/admin/class-system-info.php:214
 msgid "WP Multisite"
 msgstr ""
 
-#: framework/admin/class-system-info.php:210
+#: framework/admin/class-system-info.php:217
 msgid "Check to see if WordPress Multisite is enabled."
 msgstr ""
 
-#: framework/admin/class-system-info.php:217
+#: framework/admin/class-system-info.php:224
 msgid "WP Memory Limit"
 msgstr ""
 
-#: framework/admin/class-system-info.php:220
+#: framework/admin/class-system-info.php:227
 msgid "The maximum amount of memory (RAM) that your site can use."
 msgstr ""
 
-#: framework/admin/class-system-info.php:227
+#: framework/admin/class-system-info.php:234
 msgid "WP Remote Post"
 msgstr ""
 
-#: framework/admin/class-system-info.php:230
+#: framework/admin/class-system-info.php:237
 msgid ""
 "Checks to see if your hosting server is able to post information to another "
 "server. PayPal IPN uses this method of communication when sending back "
 "transaction information."
 msgstr ""
 
-#: framework/admin/class-system-info.php:237
+#: framework/admin/class-system-info.php:244
 msgid "WP Debug Mode"
 msgstr ""
 
-#: framework/admin/class-system-info.php:240
+#: framework/admin/class-system-info.php:247
 msgid "Check to see if WordPress debug mode is enabled."
 msgstr ""
 
-#: framework/admin/class-system-info.php:247
+#: framework/admin/class-system-info.php:254
 msgid "Force SSL Admin"
 msgstr ""
 
-#: framework/admin/class-system-info.php:250
+#: framework/admin/class-system-info.php:257
 msgid ""
 "Check to see if your site forces SSL (Secure Sockets Layer) also known as "
 "TLS (Transport Layer Security)."
 msgstr ""
 
-#: framework/admin/class-system-info.php:257 includes/admin/settings.php:134
+#: framework/admin/class-system-info.php:264 includes/admin/settings.php:134
 msgid "Language"
 msgstr ""
 
-#: framework/admin/class-system-info.php:260
+#: framework/admin/class-system-info.php:267
 msgid ""
 "The current language used by WordPress. The default value is en_US "
 "(English)."
 msgstr ""
 
-#: framework/admin/class-system-info.php:267
+#: framework/admin/class-system-info.php:274
 msgid "Language File Path"
 msgstr ""
 
-#: framework/admin/class-system-info.php:270
+#: framework/admin/class-system-info.php:277
 msgid ""
 "Where to put your .mo language file for this theme (e.g. %1$s-%2$s.mo). The "
 "wp-admin \"Site Language\" drop-down must also be set to your locale."
 msgstr ""
 
-#: framework/admin/class-system-info.php:281
-msgid "Server Info"
+#: framework/admin/class-system-info.php:295
+msgid "WordPress Info"
 msgstr ""
 
-#: framework/admin/class-system-info.php:284
+#: framework/admin/class-system-info.php:302
 msgid "Server Software"
 msgstr ""
 
-#: framework/admin/class-system-info.php:287
+#: framework/admin/class-system-info.php:305
 msgid "The web server your hosting server is running."
 msgstr ""
 
-#: framework/admin/class-system-info.php:294
+#: framework/admin/class-system-info.php:312
 msgid "PHP Version"
 msgstr ""
 
-#: framework/admin/class-system-info.php:297
+#: framework/admin/class-system-info.php:315
 msgid ""
 "The version of PHP installed on your hosting server. We recommend a minimum "
 "PHP version of 5.4."
 msgstr ""
 
-#: framework/admin/class-system-info.php:298
+#: framework/admin/class-system-info.php:316
 msgid "Function phpversion() is not available."
 msgstr ""
 
-#: framework/admin/class-system-info.php:304
+#: framework/admin/class-system-info.php:322
 msgid "PHP Post Max Size"
 msgstr ""
 
-#: framework/admin/class-system-info.php:307
+#: framework/admin/class-system-info.php:325
 msgid "The largest file size that can be contained in one $_POST."
 msgstr ""
 
-#: framework/admin/class-system-info.php:308
-#: framework/admin/class-system-info.php:318
-#: framework/admin/class-system-info.php:328
-#: framework/admin/class-system-info.php:368
+#: framework/admin/class-system-info.php:326
+#: framework/admin/class-system-info.php:336
+#: framework/admin/class-system-info.php:346
+#: framework/admin/class-system-info.php:386
 msgid "Function ini_get() is not available."
 msgstr ""
 
-#: framework/admin/class-system-info.php:314
+#: framework/admin/class-system-info.php:332
 msgid "PHP Time Limit"
 msgstr ""
 
-#: framework/admin/class-system-info.php:317
+#: framework/admin/class-system-info.php:335
 msgid ""
 "The amount of time (in seconds) your server will spend on a task before "
 "timing out. Set this higher to avoid timeout issues."
 msgstr ""
 
-#: framework/admin/class-system-info.php:324
+#: framework/admin/class-system-info.php:342
 msgid "PHP Max Input Vars"
 msgstr ""
 
-#: framework/admin/class-system-info.php:327
+#: framework/admin/class-system-info.php:345
 msgid ""
 "The maximum number of variables your server can use for a single function "
 "to avoid overloads."
 msgstr ""
 
-#: framework/admin/class-system-info.php:334
+#: framework/admin/class-system-info.php:352
 msgid "SUHOSIN Installed"
 msgstr ""
 
-#: framework/admin/class-system-info.php:337
+#: framework/admin/class-system-info.php:355
 msgid ""
 "Suhosin is an advanced protection system for PHP installations. Your host "
 "provider typically configures this."
 msgstr ""
 
-#: framework/admin/class-system-info.php:344
+#: framework/admin/class-system-info.php:362
 msgid "MySQL Version"
 msgstr ""
 
-#: framework/admin/class-system-info.php:347
+#: framework/admin/class-system-info.php:365
 msgid ""
 "The version of MySQL installed on your hosting server. We recommend a "
 "minimum mySQL version of 5.5."
 msgstr ""
 
-#: framework/admin/class-system-info.php:354
+#: framework/admin/class-system-info.php:372
 msgid "Max Upload Size"
 msgstr ""
 
-#: framework/admin/class-system-info.php:357
+#: framework/admin/class-system-info.php:375
 msgid ""
 "The largest file size that can be uploaded to your WordPress installation. "
 "If you get timeout errors when uploading a large file, this should be "
 "increased."
 msgstr ""
 
-#: framework/admin/class-system-info.php:364
+#: framework/admin/class-system-info.php:382
 msgid "Display Errors"
 msgstr ""
 
-#: framework/admin/class-system-info.php:367
+#: framework/admin/class-system-info.php:385
 msgid ""
 "Checks if your hosting server has PHP errors turned on. If so, they will "
 "display on the screen. This should be turned off in a production "
 "environment."
 msgstr ""
 
-#: framework/admin/class-system-info.php:378
-msgid "Image Support"
+#: framework/admin/class-system-info.php:403
+msgid "Server Info"
 msgstr ""
 
-#: framework/admin/class-system-info.php:381
+#: framework/admin/class-system-info.php:410
 msgid "GD Library"
 msgstr ""
 
-#: framework/admin/class-system-info.php:384
+#: framework/admin/class-system-info.php:413
 msgid ""
 "Checks to see if your hosting server has the GD Library installed which "
 "allows WordPress to dynamically manipulate images."
 msgstr ""
 
-#: framework/admin/class-system-info.php:391
+#: framework/admin/class-system-info.php:420
 msgid "Image Upload Path"
 msgstr ""
 
-#: framework/admin/class-system-info.php:394
+#: framework/admin/class-system-info.php:423
 msgid "The WordPress image upload path on your hosting server."
 msgstr ""
 
-#: framework/admin/class-system-info.php:405
-msgid "Other Checks"
+#: framework/admin/class-system-info.php:441
+msgid "Image Support"
 msgstr ""
 
-#: framework/admin/class-system-info.php:408
+#: framework/admin/class-system-info.php:448
 msgid "JSON Decode"
 msgstr ""
 
-#: framework/admin/class-system-info.php:411
+#: framework/admin/class-system-info.php:451
 msgid "Checks to see if the JSON Decode function is enabled on your hosting server."
 msgstr ""
 
-#: framework/admin/class-system-info.php:418
+#: framework/admin/class-system-info.php:458
 msgid "cURL"
 msgstr ""
 
-#: framework/admin/class-system-info.php:421
+#: framework/admin/class-system-info.php:461
 msgid ""
 "Checks to see if the CURL function is enabled on your hosting server. "
 "Payment gateways and sometimes other plugins usually required this in order "
 "to work properly."
 msgstr ""
 
-#: framework/admin/class-system-info.php:428
+#: framework/admin/class-system-info.php:468
 msgid "fsockopen"
 msgstr ""
 
-#: framework/admin/class-system-info.php:431
+#: framework/admin/class-system-info.php:471
 msgid ""
 "Checks to see if the fsockopen function is enabled on your hosting server. "
 "Payment gateways and sometimes other plugins usually required this in order "
 "to work properly."
 msgstr ""
 
-#: framework/admin/class-system-info.php:438
+#: framework/admin/class-system-info.php:478
 msgid "OpenSSL"
 msgstr ""
 
-#: framework/admin/class-system-info.php:441
+#: framework/admin/class-system-info.php:481
 msgid ""
 "Checks to see if the OpenSSL function is enabled on your hosting server. "
 "This is sometimes required by plugins but typically not for payment "
 "gateways."
 msgstr ""
 
-#: framework/admin/class-system-info.php:452
+#: framework/admin/class-system-info.php:499
+msgid "Other Checks"
+msgstr ""
+
+#: framework/admin/class-system-info.php:505
 msgid "Active Plugins"
 msgstr ""
 
-#: framework/admin/class-system-info.php:474
+#: framework/admin/class-system-info.php:527
 msgid "Download Report"
 msgstr ""
 
-#: framework/admin/class-system-info.php:507
+#: framework/admin/class-system-info.php:560
 msgid ""
 "wp_remote_post() failed. PayPal IPN won't work with your server at this "
 "time. Contact your host provider."
 msgstr ""
 
-#: framework/admin/class-system-info.php:511
+#: framework/admin/class-system-info.php:564
 msgid "Error: %s"
 msgstr ""
 
-#: framework/admin/class-system-info.php:513
+#: framework/admin/class-system-info.php:566
 msgid "Status code: %s"
 msgstr ""
 
-#: framework/admin/class-system-info.php:546
+#: framework/admin/class-system-info.php:599
 msgid "By"
 msgstr ""
 
-#: framework/admin/class-system-info.php:547
+#: framework/admin/class-system-info.php:600
 msgid "Plugin site"
 msgstr ""
 
-#: framework/admin/class-system-info.php:582
+#: framework/admin/class-system-info.php:633
 msgid "One-off event"
 msgstr ""
 
-#: framework/admin/class-system-info.php:609
+#: framework/admin/class-system-info.php:660
 msgid "You haven&#39;t created any cron job tasks yet."
 msgstr ""
 
-#: framework/admin/class-system-info.php:615
+#: framework/admin/class-system-info.php:666
 msgid "Hook Name"
 msgstr ""
 
-#: framework/admin/class-system-info.php:616
+#: framework/admin/class-system-info.php:667
 msgid "Frequency"
 msgstr ""
 
-#: framework/admin/class-system-info.php:617
+#: framework/admin/class-system-info.php:668
 msgid "Next Run Date"
 msgstr ""
 
@@ -959,7 +962,7 @@ msgstr ""
 msgid "Save Changes"
 msgstr ""
 
-#: framework/admin/class-user-meta-box.php:296
+#: framework/admin/class-user-meta-box.php:305
 msgid "ERROR"
 msgstr ""
 
@@ -1188,93 +1191,93 @@ msgid "No categories"
 msgstr ""
 
 #: framework/kernel/functions.php:1352
-#: includes/payments/admin/order-list.php:140
+#: includes/payments/admin/order-list.php:147
 msgid "%s ago"
 msgstr ""
 
-#: framework/kernel/view-types.php:259
+#: framework/kernel/view-types.php:266
 msgid ""
 "Retrieving page id by APP_View_Page subclass name is deprecated, use "
 "APP_View_Page::_get_page_id( $template ) instead!"
 msgstr ""
 
-#: framework/load.php:172
+#: framework/load.php:184
 msgid ""
-"The %s plugin is not detected. We strongly recommend you download and "
-"activate it so you can receive the latest updates when available. It also "
-"protects your theme from being overwritten by a similarly named theme."
+"The AppThemes Updater plugin is not installed. It is required in order to "
+"receive new version notifications and perform updates from within "
+"WordPress. <a href=\"%s\" target=\"_blank\">Download it &rarr;</a>"
 msgstr ""
 
-#: framework/media-manager/media-manager.php:135
+#: framework/media-manager/media-manager.php:79
 msgid "Allowed files"
 msgstr ""
 
-#: framework/media-manager/media-manager.php:136
+#: framework/media-manager/media-manager.php:80
 msgid "Allowed file types"
 msgstr ""
 
-#: framework/media-manager/media-manager.php:137
+#: framework/media-manager/media-manager.php:81
 msgid "Insert Media"
 msgstr ""
 
-#: framework/media-manager/media-manager.php:138
+#: framework/media-manager/media-manager.php:82
 msgid "Insert from URL"
 msgstr ""
 
-#: framework/media-manager/media-manager.php:139
+#: framework/media-manager/media-manager.php:83
 msgid "Maximum upload file size"
 msgstr ""
 
-#: framework/media-manager/media-manager.php:140
+#: framework/media-manager/media-manager.php:84
 msgid "Allowed embeds"
 msgstr ""
 
-#: framework/media-manager/media-manager.php:141
+#: framework/media-manager/media-manager.php:85
 msgid "Clear Embeds (clears any previously added embeds)"
 msgstr ""
 
-#: framework/media-manager/media-manager.php:142
+#: framework/media-manager/media-manager.php:86
 msgid "No more embeds allowed"
 msgstr ""
 
-#: framework/media-manager/media-manager.php:182
+#: framework/media-manager/media-manager.php:126
 msgid "Add Media"
 msgstr ""
 
-#: framework/media-manager/media-manager.php:183
+#: framework/media-manager/media-manager.php:127
 msgid "Manage Media"
 msgstr ""
 
-#: framework/media-manager/media-manager.php:184
+#: framework/media-manager/media-manager.php:128
 msgid "No media added yet"
 msgstr ""
 
-#: framework/media-manager/media-manager.php:369
-#: includes/payments/admin/order-list.php:106
+#: framework/media-manager/media-manager.php:317
+#: includes/payments/admin/order-list.php:113
 #: includes/payments/admin/order-single.php:159 includes/payments.php:708
 #: includes/payments.php:764 includes/views-checkout.php:570
 msgid "Unknown"
 msgstr ""
 
-#: framework/media-manager/media-manager.php:622
+#: framework/media-manager/media-manager.php:569
 msgid "Sorry, allowed mime types do not seem to be valid."
 msgstr ""
 
-#: framework/media-manager/media-manager.php:658
+#: framework/media-manager/media-manager.php:605
 msgid "Sorry, you cannot upload this file type for this field."
 msgstr ""
 
-#: framework/media-manager/media-manager.php:671
+#: framework/media-manager/media-manager.php:618
 msgid "Sorry, the allowed file size does not seem to be valid."
 msgstr ""
 
-#: framework/media-manager/media-manager.php:678
+#: framework/media-manager/media-manager.php:625
 msgid ""
 "Sorry, you cannot upload this file as it exceeds the size limitations for "
 "this field."
 msgstr ""
 
-#: framework/media-manager/media-manager.php:701
+#: framework/media-manager/media-manager.php:648
 msgid "Sorry, you've reached the file upload limit for this field."
 msgstr ""
 
@@ -1331,8 +1334,15 @@ msgstr ""
 msgid "Settings <strong>saved</strong>."
 msgstr ""
 
-#: functions.php:182
+#: functions.php:189
 msgid "Attachments"
+msgstr ""
+
+#: functions.php:228
+msgid ""
+"ClassiPress version %1$s is not compatible with WordPress version %2$s. "
+"Correct work is not guaranteed. Please upgrade the WordPress at least to "
+"version %3$s or downgrade the ClassiPress theme."
 msgstr ""
 
 #: header.php:22
@@ -1343,131 +1353,87 @@ msgstr ""
 msgid "Post an Ad"
 msgstr ""
 
-#: includes/actions.php:203
+#: includes/actions.php:206
 msgid "Listing ID:"
 msgstr ""
 
-#: includes/actions.php:203
-#: includes/payments/escrow/gateways/paypal-adaptive/paypal-adaptive.php:431
+#: includes/actions.php:206
+#: includes/payments/escrow/gateways/paypal-adaptive/paypal-adaptive.php:437
 msgid "N/A"
 msgstr ""
 
-#: includes/actions.php:244
+#: includes/actions.php:247
 msgid "Sorry, no listings were found."
 msgstr ""
 
-#: includes/actions.php:289 includes/actions.php:291
+#: includes/actions.php:292 includes/actions.php:294
 msgid "No Tags"
 msgstr ""
 
-#: includes/actions.php:316
+#: includes/actions.php:319
 msgid "Sorry, no posts could be found."
 msgstr ""
 
-#: includes/actions.php:530
+#: includes/actions.php:533
 msgid "Sponsored Links"
 msgstr ""
 
-#: includes/actions.php:789
+#: includes/actions.php:814
 msgid "Report problem"
 msgstr ""
 
-#: includes/actions.php:844
+#: includes/actions.php:869
 msgid "[&hellip;]"
 msgstr ""
 
-#: includes/admin/addons-mp/addons-mp-class.php:79
-msgid "New"
-msgstr ""
-
-#: includes/admin/addons-mp/addons-mp-class.php:80 includes/functions.php:1488
-#: sidebar-blog.php:20
-msgid "Popular"
-msgstr ""
-
-#: includes/admin/addons-mp/addons-mp-class.php:175
-msgid "All Products"
-msgstr ""
-
-#: includes/admin/addons-mp/addons-mp-class.php:189 includes/categories.php:54
-#: includes/core.php:88
-msgid "All Categories"
-msgstr ""
-
-#: includes/admin/addons-mp/addons-mp-class.php:203
-msgid "All Authors"
-msgstr ""
-
-#: includes/admin/addons-mp/addons-mp-class.php:441
-#: includes/admin/addons-mp/addons-mp-class.php:442
-#: includes/admin/addons-mp/addons-mp-class.php:444
+#: includes/admin/addons-mp/addons-mp-class.php:403
+#: includes/admin/addons-mp/addons-mp-class.php:404
+#: includes/admin/addons-mp/addons-mp-class.php:406
 msgid "Search Add-ons"
 msgstr ""
 
-#: includes/admin/addons-mp/addons-mp-class.php:494
-#: includes/admin/addons-mp/addons-mp-class.php:781
-msgid "Child Themes"
-msgstr ""
-
-#: includes/admin/addons-mp/addons-mp-class.php:592
+#: includes/admin/addons-mp/addons-mp-class.php:514
 msgid "By %1$s"
 msgstr ""
 
-#: includes/admin/addons-mp/addons-mp-class.php:602
+#: includes/admin/addons-mp/addons-mp-class.php:524
 msgid "Last Updated:"
 msgstr ""
 
-#: includes/admin/addons-mp/addons-mp-class.php:603
+#: includes/admin/addons-mp/addons-mp-class.php:525
 msgid "%1$s ago"
 msgstr ""
 
-#: includes/admin/addons-mp/addons-mp-class.php:606
+#: includes/admin/addons-mp/addons-mp-class.php:528
 #: includes/custom-forms.php:298
 msgid "Category:"
 msgstr ""
 
-#: includes/admin/addons-mp/addons-mp-class.php:609
-msgid "Requirements:"
+#: includes/admin/addons-mp/addons-mp-class.php:531
+msgid "Compatibilities:"
 msgstr ""
 
-#: includes/admin/addons-mp/addons-mp-class.php:632
+#: includes/admin/addons-mp/addons-mp-class.php:554
 msgid "Try again"
 msgstr ""
 
-#: includes/admin/addons-mp/addons-mp-class.php:634
+#: includes/admin/addons-mp/addons-mp-class.php:556
 msgid "No add-ons match your request."
-msgstr ""
-
-#: includes/admin/addons-mp/addons-mp-class.php:731
-msgid "Themes"
-msgstr ""
-
-#: includes/admin/addons-mp/addons-mp-class.php:732
-#: includes/admin/addons-mp/addons-mp-class.php:779
-msgid "Plugins"
-msgstr ""
-
-#: includes/admin/addons-mp/addons-mp-class.php:780
-msgid "Payment Gateways"
-msgstr ""
-
-#: includes/admin/addons-mp/addons-mp-class.php:782
-msgid "General Themes"
 msgstr ""
 
 #: includes/admin/addons-mp/admin.php:32
 msgid "Add-ons"
 msgstr ""
 
-#: includes/admin/addons-mp/admin.php:98
+#: includes/admin/addons-mp/admin.php:97
 msgid "Marketplace Add-ons"
 msgstr ""
 
-#: includes/admin/addons-mp/admin.php:99
+#: includes/admin/addons-mp/admin.php:98
 msgid "Browse Marketplace"
 msgstr ""
 
-#: includes/admin/addons-mp/admin.php:100
+#: includes/admin/addons-mp/admin.php:99
 msgid "Browse Themes"
 msgstr ""
 
@@ -1476,7 +1442,7 @@ msgid "Id"
 msgstr ""
 
 #: includes/admin/admin.php:17 includes/admin/importer.php:39
-#: includes/admin/settings.php:381 includes/core.php:28 includes/core.php:50
+#: includes/admin/settings.php:381
 msgid "Ads"
 msgstr ""
 
@@ -1580,7 +1546,7 @@ msgid "Facebook Friends"
 msgstr ""
 
 #: includes/admin/install.php:668 includes/admin/install.php:702
-#: includes/admin/listing-list.php:41 includes/core.php:138 sidebar-blog.php:22
+#: includes/admin/listing-list.php:41 sidebar-blog.php:22
 msgid "Tags"
 msgstr ""
 
@@ -1601,8 +1567,8 @@ msgstr ""
 msgid "Blog Categories"
 msgstr ""
 
-#: includes/admin/install.php:709 includes/core.php:84 includes/widgets.php:25
-#: tpl-ads-home.php:30 tpl-categories.php:26
+#: includes/admin/install.php:709 includes/widgets.php:25 tpl-ads-home.php:30
+#: tpl-categories.php:26
 msgid "Ad Categories"
 msgstr ""
 
@@ -1622,8 +1588,8 @@ msgstr ""
 msgid "Meta"
 msgstr ""
 
-#: includes/admin/listing-list.php:39 includes/admin/listing-single.php:496
-#: includes/admin/listing-single.php:509
+#: includes/admin/listing-list.php:39 includes/admin/listing-single.php:501
+#: includes/admin/listing-single.php:514
 #: includes/payments/admin/order-list.php:27
 #: includes/reports/admin/metabox.php:149
 msgid "Author"
@@ -1820,7 +1786,7 @@ msgid "Form Layouts"
 msgstr ""
 
 #: includes/admin/options.php:1011 includes/admin/options.php:1268
-#: includes/core.php:30 includes/packages.php:30 includes/packages.php:64
+#: includes/core.php:29 includes/packages.php:30 includes/packages.php:64
 #: includes/payments/order-functions.php:43
 msgid "Add New"
 msgstr ""
@@ -1835,7 +1801,7 @@ msgid ""
 msgstr ""
 
 #: includes/admin/options.php:1022 includes/admin/settings.php:51
-#: includes/core.php:103 includes/views.php:639
+#: includes/views.php:639
 msgid "Categories"
 msgstr ""
 
@@ -1942,14 +1908,14 @@ msgid "Duration"
 msgstr ""
 
 #: includes/admin/package-list.php:74 includes/admin/package-list.php:161
-#: includes/admin/values.php:85 includes/functions.php:917
-#: includes/functions.php:918
+#: includes/admin/values.php:85 includes/functions.php:919
+#: includes/functions.php:920
 msgid "Active"
 msgstr ""
 
 #: includes/admin/package-list.php:76 includes/admin/package-list.php:163
-#: includes/admin/values.php:86 includes/functions.php:927
-#: includes/functions.php:928
+#: includes/admin/values.php:86 includes/functions.php:929
+#: includes/functions.php:930
 msgid "Inactive"
 msgstr ""
 
@@ -2157,13 +2123,13 @@ msgstr ""
 
 #: includes/admin/settings.php:50 includes/admin/settings.php:302
 #: includes/admin/settings.php:974 includes/admin/settings.php:1159
-#: includes/payments/admin/settings.php:32
+#: includes/payments/admin/settings.php:35
 #: includes/payments/gateways/bank-transfer/bank-transfer.php:55
 #: includes/payments/gateways/paypal/paypal.php:131
 msgid "General"
 msgstr ""
 
-#: includes/admin/settings.php:53 includes/payments/admin/settings.php:111
+#: includes/admin/settings.php:53 includes/payments/admin/settings.php:117
 msgid "Security"
 msgstr ""
 
@@ -2407,7 +2373,7 @@ msgid "Appears in the sidebar of your home page. (HTML is allowed)"
 msgstr ""
 
 #: includes/admin/settings.php:262 includes/admin/settings.php:990
-#: includes/core.php:33
+#: includes/core.php:32
 msgid "New Ad"
 msgstr ""
 
@@ -2677,7 +2643,7 @@ msgstr ""
 
 #: includes/admin/settings.php:491 includes/admin/settings.php:529
 #: includes/admin/settings.php:569 includes/admin/settings.php:1052
-#: includes/payments/admin/settings.php:194
+#: includes/payments/admin/settings.php:205
 #: includes/payments/escrow/admin/settings.php:176
 msgid "Enable"
 msgstr ""
@@ -3631,6 +3597,10 @@ msgstr ""
 msgid "All theme options have been deleted."
 msgstr ""
 
+#: includes/categories.php:54 includes/core.php:88
+msgid "All Categories"
+msgstr ""
+
 #: includes/categories.php:91
 msgid "Select one"
 msgstr ""
@@ -3712,20 +3682,20 @@ msgstr ""
 msgid "Website"
 msgstr ""
 
-#: includes/core.php:29
-msgid "Ad"
-msgstr ""
-
-#: includes/core.php:31
+#: includes/core.php:30
 msgid "Create New Ad"
 msgstr ""
 
-#: includes/core.php:32 includes/functions.php:874 includes/functions.php:1006
+#: includes/core.php:31 includes/functions.php:876 includes/functions.php:1008
 msgid "Edit Ad"
 msgstr ""
 
-#: includes/core.php:34
+#: includes/core.php:33
 msgid "View Ad"
+msgstr ""
+
+#: includes/core.php:34
+msgid "View Ads"
 msgstr ""
 
 #: includes/core.php:35 searchbar.php:33
@@ -3733,62 +3703,66 @@ msgid "Search Ads"
 msgstr ""
 
 #: includes/core.php:36
-msgid "No ads found"
+msgid "No ads found."
 msgstr ""
 
 #: includes/core.php:37
-msgid "No ads found in trash"
+msgid "No ads found in trash."
 msgstr ""
 
 #: includes/core.php:38
 msgid "Parent Ad:"
 msgstr ""
 
-#: includes/core.php:39
+#: includes/core.php:40
 msgid "All Ads"
 msgstr ""
 
-#: includes/core.php:40
+#: includes/core.php:41
 msgid "Ad Archives"
 msgstr ""
 
-#: includes/core.php:41
-msgid "Insert into ad"
-msgstr ""
-
 #: includes/core.php:42
-msgid "Uploaded to this ad"
+msgid "Ad Attributes"
 msgstr ""
 
 #: includes/core.php:43
-msgid "Featured Image"
+msgid "Insert into ad"
 msgstr ""
 
 #: includes/core.php:44
-msgid "Set featured image"
+msgid "Uploaded to this ad"
 msgstr ""
 
 #: includes/core.php:45
-msgid "Remove featured image"
+msgid "Featured Image"
 msgstr ""
 
 #: includes/core.php:46
-msgid "Use as featured image"
+msgid "Set featured image"
 msgstr ""
 
 #: includes/core.php:47
-msgid "Filter ads list"
+msgid "Remove featured image"
 msgstr ""
 
 #: includes/core.php:48
-msgid "Ads list navigation"
+msgid "Use as featured image"
 msgstr ""
 
 #: includes/core.php:49
+msgid "Filter ads list"
+msgstr ""
+
+#: includes/core.php:50
+msgid "Ads list navigation"
+msgstr ""
+
+#: includes/core.php:51
 msgid "Ads list"
 msgstr ""
 
-#: includes/core.php:55
+#: includes/core.php:56
 msgid "This is where you can create new classified ads on your site."
 msgstr ""
 
@@ -3850,14 +3824,6 @@ msgstr ""
 
 #: includes/core.php:102
 msgid "Ad categories list"
-msgstr ""
-
-#: includes/core.php:119 includes/widgets.php:621
-msgid "Ad Tags"
-msgstr ""
-
-#: includes/core.php:120
-msgid "Tag"
 msgstr ""
 
 #: includes/core.php:121
@@ -4490,46 +4456,46 @@ msgstr ""
 msgid "Please <a href=\"%s\">review this listing</a>, and approve it."
 msgstr ""
 
-#: includes/enqueue.php:125
+#: includes/enqueue.php:130
 msgid "Processing..."
 msgstr ""
 
-#: includes/enqueue.php:126 includes/views-checkout.php:1090
-msgid "Please upload at least 1 image."
+#: includes/enqueue.php:131
+msgid "Please upload at least one image."
 msgstr ""
 
-#: includes/enqueue.php:127
+#: includes/enqueue.php:132
 msgid "Are you sure you want to delete this ad?"
 msgstr ""
 
-#: includes/enqueue.php:128
+#: includes/enqueue.php:133
 msgid "Navigation"
 msgstr ""
 
-#: includes/enqueue.php:135
+#: includes/enqueue.php:140
 #: theme-framework/templates/form-password-reset.php:18
 #: theme-framework/templates/form-registration.php:35 tpl-password-reset.php:69
 #: tpl-profile.php:125 tpl-profile.php:156 tpl-registration.php:94
 msgid "Strength indicator"
 msgstr ""
 
-#: includes/enqueue.php:136
+#: includes/enqueue.php:141
 msgid "Very weak"
 msgstr ""
 
-#: includes/enqueue.php:137
+#: includes/enqueue.php:142
 msgid "Weak"
 msgstr ""
 
-#: includes/enqueue.php:138 includes/search-index/class-search-index.php:113
+#: includes/enqueue.php:143 includes/search-index/class-search-index.php:113
 msgid "Medium"
 msgstr ""
 
-#: includes/enqueue.php:139
+#: includes/enqueue.php:144
 msgid "Strong"
 msgstr ""
 
-#: includes/enqueue.php:140
+#: includes/enqueue.php:145
 msgid "Mismatch"
 msgstr ""
 
@@ -4557,7 +4523,7 @@ msgstr ""
 msgid "Login"
 msgstr ""
 
-#: includes/functions.php:361 includes/payments/order-functions.php:276
+#: includes/functions.php:361 includes/payments/order-functions.php:277
 msgid "day"
 msgstr ""
 
@@ -4589,136 +4555,140 @@ msgstr ""
 msgid "This ad has expired"
 msgstr ""
 
-#: includes/functions.php:871
+#: includes/functions.php:873
 msgid "Edit Post"
 msgstr ""
 
-#: includes/functions.php:919
+#: includes/functions.php:921
 msgid "Chargeback"
 msgstr ""
 
-#: includes/functions.php:921 includes/payments/gateways/paypal/paypal.php:202
+#: includes/functions.php:923 includes/payments/gateways/paypal/paypal.php:202
 msgid "Denied"
 msgstr ""
 
-#: includes/functions.php:922
+#: includes/functions.php:924
 msgid "Draft"
 msgstr ""
 
-#: includes/functions.php:923
+#: includes/functions.php:925
 msgid "Ended"
 msgstr ""
 
-#: includes/functions.php:924
+#: includes/functions.php:926
 msgid "Expired"
 msgstr ""
 
-#: includes/functions.php:926
+#: includes/functions.php:928
 msgid "Scheduled"
 msgstr ""
 
-#: includes/functions.php:929
+#: includes/functions.php:931
 msgid "Live"
 msgstr ""
 
-#: includes/functions.php:930
+#: includes/functions.php:932
 msgid "Live-Expired"
 msgstr ""
 
-#: includes/functions.php:931
+#: includes/functions.php:933
 msgid "Offline"
 msgstr ""
 
-#: includes/functions.php:933
+#: includes/functions.php:935
 msgid "Awaiting approval"
 msgstr ""
 
-#: includes/functions.php:934
+#: includes/functions.php:936
 msgid "Awaiting payment"
 msgstr ""
 
-#: includes/functions.php:935
+#: includes/functions.php:937
 msgid "Private"
 msgstr ""
 
-#: includes/functions.php:936
+#: includes/functions.php:938
 msgid "Published"
 msgstr ""
 
-#: includes/functions.php:937
-#: includes/payments/escrow/order-escrow-class.php:99
+#: includes/functions.php:939
+#: includes/payments/escrow/order-escrow-class.php:103
 msgid "Refunded"
 msgstr ""
 
-#: includes/functions.php:938 includes/payments/gateways/paypal/paypal.php:201
+#: includes/functions.php:940 includes/payments/gateways/paypal/paypal.php:201
 msgid "Reversed"
 msgstr ""
 
-#: includes/functions.php:939
+#: includes/functions.php:941
 msgid "Trash"
 msgstr ""
 
-#: includes/functions.php:940
+#: includes/functions.php:942
 msgid "Unverified"
 msgstr ""
 
-#: includes/functions.php:941
+#: includes/functions.php:943
 msgid "Verified"
 msgstr ""
 
-#: includes/functions.php:942 includes/payments/gateways/paypal/paypal.php:204
+#: includes/functions.php:944 includes/payments/gateways/paypal/paypal.php:204
 msgid "Voided"
 msgstr ""
 
-#: includes/functions.php:1020
+#: includes/functions.php:1022
 msgid "Delete Ad"
 msgstr ""
 
-#: includes/functions.php:1028
+#: includes/functions.php:1030
 msgid "Pause Ad"
 msgstr ""
 
-#: includes/functions.php:1036
+#: includes/functions.php:1038
 msgid "Restart ad"
 msgstr ""
 
-#: includes/functions.php:1047
+#: includes/functions.php:1049
 msgid "Mark Sold"
 msgstr ""
 
-#: includes/functions.php:1053
+#: includes/functions.php:1055
 msgid "Unmark Sold"
 msgstr ""
 
-#: includes/functions.php:1062
+#: includes/functions.php:1064
 msgid "Relist Ad"
 msgstr ""
 
-#: includes/functions.php:1072
+#: includes/functions.php:1074
 msgid "Pay now"
 msgstr ""
 
-#: includes/functions.php:1078 includes/payments/admin/order-single.php:303
+#: includes/functions.php:1080 includes/payments/admin/order-single.php:303
 msgid "Reset Gateway"
 msgstr ""
 
-#: includes/functions.php:1216
+#: includes/functions.php:1220
 msgid "All times are GMT %1$s. The time now is %2$s."
 msgstr ""
 
-#: includes/functions.php:1389
+#: includes/functions.php:1393
 msgid "Auto Draft"
 msgstr ""
 
-#: includes/functions.php:1484
+#: includes/functions.php:1488
 msgid "New Listings"
 msgstr ""
 
-#: includes/functions.php:1492
+#: includes/functions.php:1492 sidebar-blog.php:20
+msgid "Popular"
+msgstr ""
+
+#: includes/functions.php:1496
 msgid "Random"
 msgstr ""
 
-#: includes/functions.php:1511
+#: includes/functions.php:1515
 msgid "View More Ads"
 msgstr ""
 
@@ -5029,18 +4999,18 @@ msgstr ""
 msgid "Payment"
 msgstr ""
 
-#: includes/payments/admin/order-list.php:83
+#: includes/payments/admin/order-list.php:90
 msgid "Purchased %s item"
 msgid_plural "Purchased %s items"
 msgstr[0] ""
 msgstr[1] ""
 
-#: includes/payments/admin/order-list.php:109
+#: includes/payments/admin/order-list.php:116
 #: includes/payments/admin/order-single.php:162 includes/payments.php:767
 msgid "Undecided"
 msgstr ""
 
-#: includes/payments/admin/order-list.php:130
+#: includes/payments/admin/order-list.php:137
 msgid "Unpublished"
 msgstr ""
 
@@ -5077,7 +5047,7 @@ msgid "Gateway"
 msgstr ""
 
 #: includes/payments/admin/order-single.php:168
-#: includes/payments/admin/settings.php:39
+#: includes/payments/admin/settings.php:42
 msgid "Currency"
 msgstr ""
 
@@ -5146,101 +5116,116 @@ msgstr ""
 msgid "You do not have sufficient permissions to access this page."
 msgstr ""
 
-#: includes/payments/admin/settings.php:17
+#: includes/payments/admin/settings.php:19
 msgid "Payments Settings"
 msgstr ""
 
-#: includes/payments/admin/settings.php:35
+#: includes/payments/admin/settings.php:38
 msgid "Regional"
 msgstr ""
 
-#: includes/payments/admin/settings.php:36
+#: includes/payments/admin/settings.php:39
 msgid "The following options affect how prices are displayed on your website."
 msgstr ""
 
 #: includes/payments/admin/settings.php:45
-msgid "Identifier"
+msgid ""
+"The currency of displayed prices. Important: Payment gateways may not "
+"support all currencies listed here. Check with your provider first "
+"otherwise payments may not be in this currency."
 msgstr ""
 
 #: includes/payments/admin/settings.php:49
-msgid "Symbol (%s)"
+msgid "Identifier"
 msgstr ""
 
-#: includes/payments/admin/settings.php:50
-msgid "Code (%s)"
+#: includes/payments/admin/settings.php:52
+msgid "The currency identifier of displayed prices."
 msgstr ""
 
 #: includes/payments/admin/settings.php:54
-msgid "Position"
+msgid "Symbol (%s)"
 msgstr ""
 
-#: includes/payments/admin/settings.php:58
-msgid "Left (%s1.00)"
+#: includes/payments/admin/settings.php:55
+msgid "Code (%s)"
 msgstr ""
 
 #: includes/payments/admin/settings.php:59
-msgid "Right (1.00%s)"
+msgid "Position"
 msgstr ""
 
-#: includes/payments/admin/settings.php:60
-msgid "Left with space (%s 1.00)"
+#: includes/payments/admin/settings.php:62
+msgid "The currency position of displayed prices."
 msgstr ""
 
-#: includes/payments/admin/settings.php:61
-msgid "Right with space (1.00 %s)"
+#: includes/payments/admin/settings.php:64
+msgid "Left (%s1.00)"
 msgstr ""
 
 #: includes/payments/admin/settings.php:65
+msgid "Right (1.00%s)"
+msgstr ""
+
+#: includes/payments/admin/settings.php:66
+msgid "Left with space (%s 1.00)"
+msgstr ""
+
+#: includes/payments/admin/settings.php:67
+msgid "Right with space (1.00 %s)"
+msgstr ""
+
+#: includes/payments/admin/settings.php:71
 msgid "Thousand Separator"
 msgstr ""
 
-#: includes/payments/admin/settings.php:68
+#: includes/payments/admin/settings.php:74
 msgid "The thousand separator of displayed prices."
 msgstr ""
 
-#: includes/payments/admin/settings.php:75
+#: includes/payments/admin/settings.php:81
 msgid "Decimal Separator"
 msgstr ""
 
-#: includes/payments/admin/settings.php:78
+#: includes/payments/admin/settings.php:84
 msgid "The decimal separator of displayed prices."
 msgstr ""
 
-#: includes/payments/admin/settings.php:88
+#: includes/payments/admin/settings.php:94
 msgid "Tax"
 msgstr ""
 
-#: includes/payments/admin/settings.php:89
+#: includes/payments/admin/settings.php:95
 msgid "The following options affect how taxes are applied to all purchases."
 msgstr ""
 
-#: includes/payments/admin/settings.php:92
+#: includes/payments/admin/settings.php:98
 msgid "Rate"
 msgstr ""
 
-#: includes/payments/admin/settings.php:95
+#: includes/payments/admin/settings.php:101
 msgid "%"
 msgstr ""
 
-#: includes/payments/admin/settings.php:96
-msgid "Set to zero to disable taxes."
+#: includes/payments/admin/settings.php:102
+msgid "The tax rate applied to all purchases. Set to zero to disable taxes."
 msgstr ""
 
-#: includes/payments/admin/settings.php:106
+#: includes/payments/admin/settings.php:112
 msgid "Installed Gateways"
 msgstr ""
 
-#: includes/payments/admin/settings.php:114
+#: includes/payments/admin/settings.php:120
 msgid "Allow users view their orders list"
 msgstr ""
 
-#: includes/payments/admin/settings.php:115
+#: includes/payments/admin/settings.php:121
 msgid ""
 "Enable this option if you allow users view their orders list in back-end, "
 "otherwise only editors and administrators can do that."
 msgstr ""
 
-#: includes/payments/admin/settings.php:140
+#: includes/payments/admin/settings.php:150
 msgid ""
 "This gateway is currently <strong>disabled</strong>. Users cannot use it as "
 "a purchasing option. Go to the <a "
@@ -5333,128 +5318,136 @@ msgid "The following error ocurred while trying to make the pay request: \"%s\""
 msgstr ""
 
 #: includes/payments/escrow/gateways/paypal-adaptive/paypal-adaptive.php:83
-#: includes/payments/escrow/gateways/paypal-adaptive/paypal-adaptive.php:127
+#: includes/payments/escrow/gateways/paypal-adaptive/paypal-adaptive.php:133
 msgid "No response code from PayPal while trying to execute the payment."
 msgstr ""
 
-#: includes/payments/escrow/gateways/paypal-adaptive/paypal-adaptive.php:100
+#: includes/payments/escrow/gateways/paypal-adaptive/paypal-adaptive.php:91
+msgid "The pay key has been received and saved in order #%s meta"
+msgstr ""
+
+#: includes/payments/escrow/gateways/paypal-adaptive/paypal-adaptive.php:93
+msgid "No pay key received from the escrow payment request"
+msgstr ""
+
+#: includes/payments/escrow/gateways/paypal-adaptive/paypal-adaptive.php:106
 #: includes/payments/gateways/paypal/paypal.php:106
 msgid "You are now being redirected to PayPal."
 msgstr ""
 
-#: includes/payments/escrow/gateways/paypal-adaptive/paypal-adaptive.php:123
+#: includes/payments/escrow/gateways/paypal-adaptive/paypal-adaptive.php:129
 msgid "PayPal was not able to execute the payment. Please contact site owner."
 msgstr ""
 
-#: includes/payments/escrow/gateways/paypal-adaptive/paypal-adaptive.php:125
+#: includes/payments/escrow/gateways/paypal-adaptive/paypal-adaptive.php:131
 msgid "The following error ocurred while trying to execute the payment: \"%s\""
 msgstr ""
 
-#: includes/payments/escrow/gateways/paypal-adaptive/paypal-adaptive.php:132
+#: includes/payments/escrow/gateways/paypal-adaptive/paypal-adaptive.php:138
 msgid "Funds transferred to receivers"
 msgstr ""
 
-#: includes/payments/escrow/gateways/paypal-adaptive/paypal-adaptive.php:155
+#: includes/payments/escrow/gateways/paypal-adaptive/paypal-adaptive.php:161
 msgid "PayPal was not able to execute the refund. Please contact site owner."
 msgstr ""
 
-#: includes/payments/escrow/gateways/paypal-adaptive/paypal-adaptive.php:157
+#: includes/payments/escrow/gateways/paypal-adaptive/paypal-adaptive.php:163
 msgid "The following error ocurred while trying to execute the refund: \"%s\""
 msgstr ""
 
-#: includes/payments/escrow/gateways/paypal-adaptive/paypal-adaptive.php:159
+#: includes/payments/escrow/gateways/paypal-adaptive/paypal-adaptive.php:165
 msgid "No response code from PayPal while trying to execute the refund."
 msgstr ""
 
-#: includes/payments/escrow/gateways/paypal-adaptive/paypal-adaptive.php:189
+#: includes/payments/escrow/gateways/paypal-adaptive/paypal-adaptive.php:195
 msgid "PayPal Escrow Information"
 msgstr ""
 
-#: includes/payments/escrow/gateways/paypal-adaptive/paypal-adaptive.php:192
+#: includes/payments/escrow/gateways/paypal-adaptive/paypal-adaptive.php:198
 #: includes/payments/gateways/paypal/paypal.php:135
 msgid "PayPal Email"
 msgstr ""
 
-#: includes/payments/escrow/gateways/paypal-adaptive/paypal-adaptive.php:198
+#: includes/payments/escrow/gateways/paypal-adaptive/paypal-adaptive.php:204
 msgid "Money transfers will be made to this PayPal email address."
 msgstr ""
 
-#: includes/payments/escrow/gateways/paypal-adaptive/paypal-adaptive.php:222
+#: includes/payments/escrow/gateways/paypal-adaptive/paypal-adaptive.php:228
 msgid "Adaptive Payments SANDBOX API Credentials (Escrow)"
 msgstr ""
 
-#: includes/payments/escrow/gateways/paypal-adaptive/paypal-adaptive.php:225
-#: includes/payments/escrow/gateways/paypal-adaptive/paypal-adaptive.php:255
+#: includes/payments/escrow/gateways/paypal-adaptive/paypal-adaptive.php:231
+#: includes/payments/escrow/gateways/paypal-adaptive/paypal-adaptive.php:261
 #: theme-framework/templates/foundation/form-login.php:18
 #: theme-framework/templates/foundation/form-registration.php:18
 #: tpl-profile.php:43
 msgid "Username"
 msgstr ""
 
-#: includes/payments/escrow/gateways/paypal-adaptive/paypal-adaptive.php:226
+#: includes/payments/escrow/gateways/paypal-adaptive/paypal-adaptive.php:232
 msgid ""
 "Your sandbox account API credentials username. You can find more info on "
 "creating/managing API credentials <a href=\"%s\">here</a>."
 msgstr ""
 
-#: includes/payments/escrow/gateways/paypal-adaptive/paypal-adaptive.php:231
-#: includes/payments/escrow/gateways/paypal-adaptive/paypal-adaptive.php:261
+#: includes/payments/escrow/gateways/paypal-adaptive/paypal-adaptive.php:237
+#: includes/payments/escrow/gateways/paypal-adaptive/paypal-adaptive.php:267
 #: theme-framework/templates/foundation/form-login.php:23
 #: theme-framework/templates/foundation/form-registration.php:37
 msgid "Password"
 msgstr ""
 
-#: includes/payments/escrow/gateways/paypal-adaptive/paypal-adaptive.php:232
+#: includes/payments/escrow/gateways/paypal-adaptive/paypal-adaptive.php:238
 msgid ""
 "Your sandbox account API credentials password. You can find more info on "
 "creating/managing API credentials <a href=\"%s\">here</a>."
 msgstr ""
 
-#: includes/payments/escrow/gateways/paypal-adaptive/paypal-adaptive.php:237
-#: includes/payments/escrow/gateways/paypal-adaptive/paypal-adaptive.php:267
+#: includes/payments/escrow/gateways/paypal-adaptive/paypal-adaptive.php:243
+#: includes/payments/escrow/gateways/paypal-adaptive/paypal-adaptive.php:273
 msgid "Signature"
 msgstr ""
 
-#: includes/payments/escrow/gateways/paypal-adaptive/paypal-adaptive.php:238
+#: includes/payments/escrow/gateways/paypal-adaptive/paypal-adaptive.php:244
 msgid ""
 "Your sandbox account API credentials signature. You can find more info on "
 "creating/managing API credentials <a href=\"%s\">here</a>."
 msgstr ""
 
-#: includes/payments/escrow/gateways/paypal-adaptive/paypal-adaptive.php:252
+#: includes/payments/escrow/gateways/paypal-adaptive/paypal-adaptive.php:258
 msgid "Adaptive Payments LIVE API Credentials (Escrow)"
 msgstr ""
 
-#: includes/payments/escrow/gateways/paypal-adaptive/paypal-adaptive.php:256
+#: includes/payments/escrow/gateways/paypal-adaptive/paypal-adaptive.php:262
 msgid ""
 "Your LIVE API credentials username. You can find more info on "
 "creating/managing API credentials <a href=\"%s\">here</a>."
 msgstr ""
 
-#: includes/payments/escrow/gateways/paypal-adaptive/paypal-adaptive.php:262
+#: includes/payments/escrow/gateways/paypal-adaptive/paypal-adaptive.php:268
 msgid ""
 "Your LIVE API credentials password. You can find more info on "
 "creating/managing API credentials <a href=\"%s\">here</a>."
 msgstr ""
 
-#: includes/payments/escrow/gateways/paypal-adaptive/paypal-adaptive.php:268
+#: includes/payments/escrow/gateways/paypal-adaptive/paypal-adaptive.php:274
 msgid ""
 "Your LIVE API credentials signature. You can find more info on "
 "creating/managing API credentials <a href=\"%s\">here</a>."
 msgstr ""
 
-#: includes/payments/escrow/gateways/paypal-adaptive/paypal-adaptive.php:273
+#: includes/payments/escrow/gateways/paypal-adaptive/paypal-adaptive.php:279
 msgid "AppID"
 msgstr ""
 
-#: includes/payments/escrow/gateways/paypal-adaptive/paypal-adaptive.php:274
+#: includes/payments/escrow/gateways/paypal-adaptive/paypal-adaptive.php:280
 msgid ""
 "Your Application ID. This should be your LIVE AppID <u>NOT</u> the generic "
 "AppID <code>APP-80W284485P519543</code> used for testing. You can find more "
 "info on creating/managing PayPal applications <a href=\"%s\">here</a>."
 msgstr ""
 
-#: includes/payments/escrow/gateways/paypal-adaptive/paypal-adaptive.php:275
+#: includes/payments/escrow/gateways/paypal-adaptive/paypal-adaptive.php:281
 msgid ""
 "<strong>Important:</strong> You can only start accepting 'escrow' "
 "transactions after your AppID is fully approved by PayPal. Applications "
@@ -5462,31 +5455,31 @@ msgid ""
 "'escrow' transactions. "
 msgstr ""
 
-#: includes/payments/escrow/gateways/paypal-adaptive/paypal-adaptive.php:289
+#: includes/payments/escrow/gateways/paypal-adaptive/paypal-adaptive.php:295
 msgid "Adaptive Payments Fees"
 msgstr ""
 
-#: includes/payments/escrow/gateways/paypal-adaptive/paypal-adaptive.php:292
+#: includes/payments/escrow/gateways/paypal-adaptive/paypal-adaptive.php:298
 msgid "Payer"
 msgstr ""
 
-#: includes/payments/escrow/gateways/paypal-adaptive/paypal-adaptive.php:293
+#: includes/payments/escrow/gateways/paypal-adaptive/paypal-adaptive.php:299
 msgid "Who should pay any applicable fees?"
 msgstr ""
 
-#: includes/payments/escrow/gateways/paypal-adaptive/paypal-adaptive.php:297
+#: includes/payments/escrow/gateways/paypal-adaptive/paypal-adaptive.php:303
 msgid "Primary Receiver (You)"
 msgstr ""
 
-#: includes/payments/escrow/gateways/paypal-adaptive/paypal-adaptive.php:298
+#: includes/payments/escrow/gateways/paypal-adaptive/paypal-adaptive.php:304
 msgid "Secondary Receiver"
 msgstr ""
 
-#: includes/payments/escrow/gateways/paypal-adaptive/paypal-adaptive.php:324
+#: includes/payments/escrow/gateways/paypal-adaptive/paypal-adaptive.php:330
 msgid "<a href=\"%s\">Obtain Sandbox API Credentials</a>"
 msgstr ""
 
-#: includes/payments/escrow/gateways/paypal-adaptive/paypal-adaptive.php:329
+#: includes/payments/escrow/gateways/paypal-adaptive/paypal-adaptive.php:335
 msgid ""
 "<strong>Important:</strong> To obtain live PayPal credentials, you must "
 "have a verified Premier or verified Business PayPal account. Also, make "
@@ -5495,32 +5488,32 @@ msgid ""
 "to you."
 msgstr ""
 
-#: includes/payments/escrow/gateways/paypal-adaptive/paypal-adaptive.php:330
+#: includes/payments/escrow/gateways/paypal-adaptive/paypal-adaptive.php:336
 msgid "<a href=\"%s\">Obtain Live API Credentials</a>"
 msgstr ""
 
-#: includes/payments/escrow/gateways/paypal-adaptive/paypal-adaptive.php:378
-#: includes/theme-support.php:92
+#: includes/payments/escrow/gateways/paypal-adaptive/paypal-adaptive.php:384
+#: includes/theme-support.php:90
 msgid "Details"
 msgstr ""
 
-#: includes/payments/escrow/gateways/paypal-adaptive/paypal-adaptive.php:406
+#: includes/payments/escrow/gateways/paypal-adaptive/paypal-adaptive.php:412
 msgid "Funds"
 msgstr ""
 
-#: includes/payments/escrow/gateways/paypal-adaptive/paypal-adaptive.php:413
+#: includes/payments/escrow/gateways/paypal-adaptive/paypal-adaptive.php:419
 msgid "Receiver"
 msgstr ""
 
-#: includes/payments/escrow/gateways/paypal-adaptive/paypal-adaptive.php:417
+#: includes/payments/escrow/gateways/paypal-adaptive/paypal-adaptive.php:423
 msgid "Amount"
 msgstr ""
 
-#: includes/payments/escrow/gateways/paypal-adaptive/paypal-adaptive.php:422
+#: includes/payments/escrow/gateways/paypal-adaptive/paypal-adaptive.php:428
 msgid "Retained"
 msgstr ""
 
-#: includes/payments/escrow/gateways/paypal-adaptive/paypal-adaptive.php:423
+#: includes/payments/escrow/gateways/paypal-adaptive/paypal-adaptive.php:429
 msgid "(when completed)"
 msgstr ""
 
@@ -5536,11 +5529,11 @@ msgid_plural "Refunded <span class=\"count\">(%s)</span>"
 msgstr[0] ""
 msgstr[1] ""
 
-#: includes/payments/escrow/order-escrow-class.php:96
+#: includes/payments/escrow/order-escrow-class.php:100
 msgid "Pending (Waiting for Funds)"
 msgstr ""
 
-#: includes/payments/escrow/order-escrow-class.php:98
+#: includes/payments/escrow/order-escrow-class.php:102
 msgid "Paid (Funds in Escrow)"
 msgstr ""
 
@@ -5625,15 +5618,15 @@ msgstr ""
 msgid "No payment gateways are available. Please contact your site administrator"
 msgstr ""
 
-#: includes/payments/gateways/paypal/paypal-form.php:64
+#: includes/payments/gateways/paypal/paypal-form.php:65
 msgid "Continue to %s"
 msgstr ""
 
-#: includes/payments/gateways/paypal/paypal-form.php:134
+#: includes/payments/gateways/paypal/paypal-form.php:136
 msgid "Your Order is still being processed. Please wait a few seconds..."
 msgstr ""
 
-#: includes/payments/gateways/paypal/paypal-form.php:135
+#: includes/payments/gateways/paypal/paypal-form.php:137
 msgid ""
 "If your Order does not complete soon, please contact us and refer to your "
 "Order ID - #%d."
@@ -5796,150 +5789,186 @@ msgstr ""
 msgid "Parent Order:"
 msgstr ""
 
-#: includes/payments/order-functions.php:66
+#: includes/payments/order-functions.php:67
 msgid "Pending <span class=\"count\">(%s)</span>"
 msgid_plural "Pending <span class=\"count\">(%s)</span>"
 msgstr[0] ""
 msgstr[1] ""
 
-#: includes/payments/order-functions.php:67
+#: includes/payments/order-functions.php:68
 msgid "Failed <span class=\"count\">(%s)</span>"
 msgid_plural "Failed <span class=\"count\">(%s)</span>"
 msgstr[0] ""
 msgstr[1] ""
 
-#: includes/payments/order-functions.php:68
+#: includes/payments/order-functions.php:69
 msgid "Completed <span class=\"count\">(%s)</span>"
 msgid_plural "Completed <span class=\"count\">(%s)</span>"
 msgstr[0] ""
 msgstr[1] ""
 
-#: includes/payments/order-functions.php:69
+#: includes/payments/order-functions.php:70
 msgid "Activated <span class=\"count\">(%s)</span>"
 msgid_plural "Activated <span class=\"count\">(%s)</span>"
 msgstr[0] ""
 msgstr[1] ""
 
-#: includes/payments/order-functions.php:100
+#: includes/payments/order-functions.php:101
 msgid "Regional Taxes"
 msgstr ""
 
-#: includes/payments/order-functions.php:263
+#: includes/payments/order-functions.php:264
 msgid "year"
 msgid_plural "years"
 msgstr[0] ""
 msgstr[1] ""
 
-#: includes/payments/order-functions.php:267
+#: includes/payments/order-functions.php:268
 msgid "week"
 msgid_plural "weeks"
 msgstr[0] ""
 msgstr[1] ""
 
-#: includes/payments/order-functions.php:271
+#: includes/payments/order-functions.php:272
 msgid "month"
 msgid_plural "months"
 msgstr[0] ""
 msgstr[1] ""
 
-#: includes/payments/utils/currencies.php:30
-msgid "US Dollars"
+#: includes/payments/utils/currencies.php:32
+msgid "US Dollar"
 msgstr ""
 
-#: includes/payments/utils/currencies.php:34
-msgid "Euros"
+#: includes/payments/utils/currencies.php:36
+msgid "Euro"
 msgstr ""
 
-#: includes/payments/utils/currencies.php:38
-msgid "Pounds Sterling"
+#: includes/payments/utils/currencies.php:40
+msgid "Argentine Peso"
 msgstr ""
 
-#: includes/payments/utils/currencies.php:42
-msgid "Australian Dollars"
+#: includes/payments/utils/currencies.php:44
+msgid "Australian Dollar"
 msgstr ""
 
-#: includes/payments/utils/currencies.php:46
+#: includes/payments/utils/currencies.php:48
 msgid "Brazilian Real"
 msgstr ""
 
-#: includes/payments/utils/currencies.php:50
-msgid "Canadian Dollars"
+#: includes/payments/utils/currencies.php:52
+msgid "Bitcoin"
 msgstr ""
 
-#: includes/payments/utils/currencies.php:54
+#: includes/payments/utils/currencies.php:56
+msgid "Canadian Dollar"
+msgstr ""
+
+#: includes/payments/utils/currencies.php:60
+msgid "Chilean Peso"
+msgstr ""
+
+#: includes/payments/utils/currencies.php:64
+msgid "Chinese Yuan"
+msgstr ""
+
+#: includes/payments/utils/currencies.php:68
 msgid "Czech Koruna"
 msgstr ""
 
-#: includes/payments/utils/currencies.php:58
+#: includes/payments/utils/currencies.php:72
 msgid "Danish Krone"
 msgstr ""
 
-#: includes/payments/utils/currencies.php:62
+#: includes/payments/utils/currencies.php:76
 msgid "Hong Kong Dollar"
 msgstr ""
 
-#: includes/payments/utils/currencies.php:66
+#: includes/payments/utils/currencies.php:80
 msgid "Hungarian Forint"
 msgstr ""
 
-#: includes/payments/utils/currencies.php:70
-msgid "Israeli Shekel"
+#: includes/payments/utils/currencies.php:84
+msgid "Indian Rupee"
 msgstr ""
 
-#: includes/payments/utils/currencies.php:74
+#: includes/payments/utils/currencies.php:88
+msgid "Israeli New Sheqel"
+msgstr ""
+
+#: includes/payments/utils/currencies.php:92
 msgid "Japanese Yen"
 msgstr ""
 
-#: includes/payments/utils/currencies.php:78
-msgid "Malaysian Ringgits"
+#: includes/payments/utils/currencies.php:96
+msgid "Malaysian Ringgit"
 msgstr ""
 
-#: includes/payments/utils/currencies.php:82
+#: includes/payments/utils/currencies.php:100
 msgid "Mexican Peso"
 msgstr ""
 
-#: includes/payments/utils/currencies.php:86
+#: includes/payments/utils/currencies.php:104
 msgid "New Zealand Dollar"
 msgstr ""
 
-#: includes/payments/utils/currencies.php:90
+#: includes/payments/utils/currencies.php:108
 msgid "Norwegian Krone"
 msgstr ""
 
-#: includes/payments/utils/currencies.php:94
-msgid "Philippine Pesos"
+#: includes/payments/utils/currencies.php:112
+msgid "Philippine Peso"
 msgstr ""
 
-#: includes/payments/utils/currencies.php:98
-msgid "Polish Zloty"
+#: includes/payments/utils/currencies.php:116
+msgid "Polish Z&#x142;oty"
 msgstr ""
 
-#: includes/payments/utils/currencies.php:102
+#: includes/payments/utils/currencies.php:120
+msgid "Pound Sterling"
+msgstr ""
+
+#: includes/payments/utils/currencies.php:124
+msgid "Romanian Leu"
+msgstr ""
+
+#: includes/payments/utils/currencies.php:128
 msgid "Russian Ruble"
 msgstr ""
 
-#: includes/payments/utils/currencies.php:106
+#: includes/payments/utils/currencies.php:132
 msgid "Singapore Dollar"
 msgstr ""
 
-#: includes/payments/utils/currencies.php:110
+#: includes/payments/utils/currencies.php:136
+msgid "South African Rand"
+msgstr ""
+
+#: includes/payments/utils/currencies.php:140
 msgid "Swedish Krona"
 msgstr ""
 
-#: includes/payments/utils/currencies.php:114
+#: includes/payments/utils/currencies.php:144
 msgid "Swiss Franc"
 msgstr ""
 
-#: includes/payments/utils/currencies.php:118
-msgid "Taiwan New Dollar"
+#: includes/payments/utils/currencies.php:148
+msgid "New Taiwan Dollar"
 msgstr ""
 
-#: includes/payments/utils/currencies.php:122
+#: includes/payments/utils/currencies.php:152
 msgid "Thai Baht"
 msgstr ""
 
-#: includes/payments/utils/currencies.php:126
+#: includes/payments/utils/currencies.php:156
 msgid "Turkish Lira"
+msgstr ""
+
+#: includes/payments/utils/currencies.php:160
+msgid "Venezuelan Bol&iacute;var"
+msgstr ""
+
+#: includes/payments/utils/currencies.php:164
+msgid "Vietnamese &#x111;&#x1ed3;ng"
 msgstr ""
 
 #: includes/payments.php:348
@@ -6096,6 +6125,14 @@ msgstr ""
 
 #: includes/profile.php:82
 msgid "Extended Profile"
+msgstr ""
+
+#: includes/recaptcha/class-recaptcha-request.php:54
+msgid "Invalid response code."
+msgstr ""
+
+#: includes/recaptcha/class-recaptcha-request.php:59
+msgid "Invalid response message."
 msgstr ""
 
 #: includes/recaptcha/class-recaptcha.php:177
@@ -6339,7 +6376,7 @@ msgstr ""
 msgid "Refine Results &rsaquo;&rsaquo;"
 msgstr ""
 
-#: includes/search.php:670 includes/widgets.php:293 search.php:11
+#: includes/search.php:671 includes/widgets.php:293 search.php:11
 #: searchbar.php:27
 msgid "What are you looking for?"
 msgstr ""
@@ -6418,36 +6455,36 @@ msgstr ""
 msgid "Reset stats"
 msgstr ""
 
-#: includes/stats.php:46 includes/stats.php:96
+#: includes/stats.php:38 includes/stats.php:80
 msgid "views"
 msgstr ""
 
-#: includes/stats.php:51 includes/stats.php:101
+#: includes/stats.php:43 includes/stats.php:85
 msgid "No ads viewed yet."
 msgstr ""
 
-#: includes/theme-support.php:91
+#: includes/theme-support.php:89
 msgid "Select Category"
 msgstr ""
 
-#: includes/theme-support.php:93 includes/theme-support.php:104
+#: includes/theme-support.php:91 includes/theme-support.php:102
 msgid "Preview"
 msgstr ""
 
-#: includes/theme-support.php:94
+#: includes/theme-support.php:92
 msgid "Options/Pay"
 msgstr ""
 
-#: includes/theme-support.php:97 includes/theme-support.php:98
-#: includes/theme-support.php:106
+#: includes/theme-support.php:95 includes/theme-support.php:96
+#: includes/theme-support.php:104
 msgid "Thank You"
 msgstr ""
 
-#: includes/theme-support.php:103
+#: includes/theme-support.php:101
 msgid "Select Membership"
 msgstr ""
 
-#: includes/theme-support.php:105
+#: includes/theme-support.php:103
 msgid "Pay"
 msgstr ""
 
@@ -6507,6 +6544,10 @@ msgstr ""
 
 #: includes/views-checkout.php:930
 msgid "Your ad has been successfully updated. %s"
+msgstr ""
+
+#: includes/views-checkout.php:1090
+msgid "Please upload at least 1 image."
 msgstr ""
 
 #: includes/views-checkout.php:1100
@@ -7041,6 +7082,10 @@ msgstr ""
 msgid "ClassiPress Ads Tag Cloud"
 msgstr ""
 
+#: includes/widgets.php:621
+msgid "Ad Tags"
+msgstr ""
+
 #: includes/widgets.php:626
 msgid "Your most used ad tags in cloud format."
 msgstr ""
@@ -7055,6 +7100,10 @@ msgstr ""
 
 #: includes/widgets.php:704
 msgid "ClassiPress Featured Ads"
+msgstr ""
+
+#: includes/widgets.php:706
+msgid "Featured Ads"
 msgstr ""
 
 #: includes/widgets.php:710
@@ -7485,7 +7534,7 @@ msgstr ""
 msgid "Merge"
 msgstr ""
 
-#: theme-framework/kernel/functions.php:73
+#: theme-framework/kernel/functions.php:79
 msgid "Page %s"
 msgstr ""
 
@@ -7737,7 +7786,7 @@ msgid ""
 "administrator. **"
 msgstr ""
 
-#: wrapper.php:42
+#: wrapper.php:28
 msgid "Debug Mode On"
 msgstr ""
 
@@ -7829,12 +7878,157 @@ msgctxt "two-letter abbreviation of the weekday"
 msgid "Sa"
 msgstr ""
 
-#: includes/payments/admin/order-list.php:133
+#: includes/admin/addons-mp/api-translations.php:10
+msgctxt "MarketPlace Addons page translation"
+msgid "View"
+msgstr ""
+
+#: includes/admin/addons-mp/api-translations.php:11
+msgctxt "MarketPlace Addons page translation"
+msgid "New"
+msgstr ""
+
+#: includes/admin/addons-mp/api-translations.php:12
+msgctxt "MarketPlace Addons page translation"
+msgid "Popular"
+msgstr ""
+
+#: includes/admin/addons-mp/api-translations.php:13
+msgctxt "MarketPlace Addons page translation"
+msgid "Search Add-ons"
+msgstr ""
+
+#: includes/admin/addons-mp/api-translations.php:14
+msgctxt "MarketPlace Addons page translation"
+msgid "Category"
+msgstr ""
+
+#: includes/admin/addons-mp/api-translations.php:15
+msgctxt "MarketPlace Addons page translation"
+msgid "Plugins"
+msgstr ""
+
+#: includes/admin/addons-mp/api-translations.php:16
+msgctxt "MarketPlace Addons page translation"
+msgid "Gateway Plugins"
+msgstr ""
+
+#: includes/admin/addons-mp/api-translations.php:17
+msgctxt "MarketPlace Addons page translation"
+msgid "Child Themes"
+msgstr ""
+
+#: includes/admin/addons-mp/api-translations.php:18
+msgctxt "MarketPlace Addons page translation"
+msgid "General Themes"
+msgstr ""
+
+#: includes/admin/addons-mp/api-translations.php:19
+msgctxt "MarketPlace Addons page translation"
+msgid "Product"
+msgstr ""
+
+#: includes/admin/addons-mp/api-translations.php:20
+msgctxt "MarketPlace Addons page translation"
+msgid "Author"
+msgstr ""
+
+#: includes/admin/addons-mp/api-translations.php:21
+msgctxt "MarketPlace Addons page translation"
+msgid "Rating"
+msgstr ""
+
+#: includes/admin/addons-mp/api-translations.php:22
+msgctxt "MarketPlace Addons page translation"
+msgid "4+ stars"
+msgstr ""
+
+#: includes/admin/addons-mp/api-translations.php:23
+msgctxt "MarketPlace Addons page translation"
+msgid "3+ stars"
+msgstr ""
+
+#: includes/admin/addons-mp/api-translations.php:24
+msgctxt "MarketPlace Addons page translation"
+msgid "2+ stars"
+msgstr ""
+
+#: includes/admin/addons-mp/api-translations.php:25
+msgctxt "MarketPlace Addons page translation"
+msgid "1+ stars"
+msgstr ""
+
+#: includes/admin/addons-mp/api-translations.php:26
+msgctxt "MarketPlace Addons page translation"
+msgid "All Categories"
+msgstr ""
+
+#: includes/admin/addons-mp/api-translations.php:27
+msgctxt "MarketPlace Addons page translation"
+msgid "All Products"
+msgstr ""
+
+#: includes/admin/addons-mp/api-translations.php:28
+msgctxt "MarketPlace Addons page translation"
+msgid "All Authors"
+msgstr ""
+
+#: includes/admin/addons-mp/api-translations.php:29
+msgctxt "MarketPlace Addons page translation"
+msgid "All Ratings"
+msgstr ""
+
+#: includes/core.php:27
+msgctxt "post type general name"
+msgid "Ads"
+msgstr ""
+
+#: includes/core.php:28
+msgctxt "post type singular name"
+msgid "Ad"
+msgstr ""
+
+#: includes/core.php:39
+msgctxt "post type menu name"
+msgid "Ads"
+msgstr ""
+
+#: includes/core.php:84
+msgctxt "taxonomy general name"
+msgid "Ad Categories"
+msgstr ""
+
+#: includes/core.php:119
+msgctxt "taxonomy general name"
+msgid "Ad Tags"
+msgstr ""
+
+#: includes/core.php:85
+msgctxt "taxonomy singular name"
+msgid "Category"
+msgstr ""
+
+#: includes/core.php:120
+msgctxt "taxonomy singular name"
+msgid "Tag"
+msgstr ""
+
+#: includes/core.php:103
+msgctxt "taxonomy menu name"
+msgid "Categories"
+msgstr ""
+
+#: includes/core.php:138
+msgctxt "taxonomy menu name"
+msgid "Tags"
+msgstr ""
+
+#: includes/payments/admin/order-list.php:140
 msgctxt "Order Date Format"
 msgid "Y/m/d g:i:s A"
 msgstr ""
 
-#: includes/payments/admin/order-list.php:142
+#: includes/payments/admin/order-list.php:149
 msgctxt "Order Date Format"
 msgid "Y/m/d"
 msgstr ""
