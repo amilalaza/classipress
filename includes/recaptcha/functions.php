@@ -9,8 +9,6 @@
 
 /**
  * Displays the Google ReCaptcha.
- *
- * return void
  */
 function appthemes_display_recaptcha() {
 
@@ -23,8 +21,6 @@ function appthemes_display_recaptcha() {
 
 /**
  * Enqueue script dependencies.
- *
- * return void
  */
 function appthemes_enqueue_recaptcha_scripts() {
 	if ( ! current_theme_supports( 'app-recaptcha' ) ) {
@@ -39,7 +35,6 @@ function appthemes_enqueue_recaptcha_scripts() {
  *
  * @param  string $response  The user response token.
  * @param  string $remote_ip The users IP address.
- *
  * @return boolean|WP_Error  True on success, WP_Error object on failure.
  */
 function appthemes_recaptcha_verify( $response = '', $remote_ip = '' ) {

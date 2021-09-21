@@ -6,13 +6,8 @@
  */
 
 /**
- * Loads the language-specific translation .mo file.
- * Looks in WP_LANG_DIR . '/themes/' first otherwise
- * uses the .mo in theme's get_template_directory().
- *
- * @since 1.0.0
- *
- * @return void
+ * Loads the appropriate .mo file from theme directory first,
+ * and if not found then from the Language directory.
  */
 function appthemes_load_textdomain() {
 
@@ -22,7 +17,6 @@ function appthemes_load_textdomain() {
 /**
  * Checks if a file is located in template directory.
  *
- * @since 1.0.0
  * @param string $file A path to file
  *
  * @return bool True if file is located in template directory
@@ -87,7 +81,6 @@ function appthemes_title_tag( $title ) {
 /**
  * Includes custom post types into main feed, hook to 'request' filter
  *
- * @since 1.0.0
  * @param array $query_vars
  *
  * @return array

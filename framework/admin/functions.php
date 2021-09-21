@@ -96,10 +96,8 @@ function appthemes_install_widget( $widget_name, $sidebar, $instance_settings = 
  *					'widget_setting_2' => 'setting_value',
  *				),
  *		),
- *      // Or
  *		'sidebar_2' => array (
- *				array(
- *					'widget_name'      => 'widget_name',
+ *				'widget_name' => array(
  *					'widget_setting_1' => 'setting_value',
  *					'widget_setting_2' => 'setting_value',
  *				),
@@ -120,10 +118,6 @@ function appthemes_install_widgets( $sidebars_widgets, $reset_sidebar_first = tr
 		}
 
 		foreach ( $widgets as $widget => $settings ) {
-			if ( isset( $settings['widget_name'] ) ) {
-				$widget = $settings['widget_name'];
-				unset( $settings['widget_name'] );
-			}
 			appthemes_install_widget( $widget, $sidebar, $settings );
 		}
 	}

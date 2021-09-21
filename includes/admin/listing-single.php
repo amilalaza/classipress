@@ -460,7 +460,6 @@ class CP_Listing_Media extends APP_Media_Manager_Metabox {
 	 * @return void
 	 */
 	public function display( $post ) {
-		global $cp_options;
 
 		$attachment_ids = get_post_meta( $post->ID, '_app_media', true );
 
@@ -478,11 +477,7 @@ class CP_Listing_Media extends APP_Media_Manager_Metabox {
 		}
 
 		// output the media manager browser
-		cp_media_manager( $post->ID, array( 'id' => self::$id ), array(
-			'file_limit'  => (int) $cp_options->num_images,
-			'embed_limit' => 0,
-			'file_size'   => (int) $cp_options->max_image_size * 1024,
-		) );
+		cp_media_manager( $post->ID, array( 'id' => self::$id ) );
 	}
 }
 

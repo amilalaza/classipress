@@ -72,14 +72,13 @@ class APP_Meta_Box extends scbPostMetabox {
 	 * @return string
 	 */
 	public function table_row( $row, $formdata, $errors = array() ) {
-
 		if ( empty( $row['tip'] ) ) {
-			$tip = html( 'td class="at-help"', '&nbsp;' );
+			$tip = '';
 		} else {
-			$tip  = html( 'td class="at-help"', html( 'i', array(
+			$tip  = html( "i", array(
 				'class' => 'at at-tip',
 				'data-tooltip' => APP_ToolTips::supports_wp_pointer() ? $row['tip'] : __( 'Click for more info', APP_TD ),
-			) ) );
+			) );
 
 			if ( ! APP_ToolTips::supports_wp_pointer() ) {
 				$tip .= html( "div class='tip-content'", $row['tip'] );
@@ -196,3 +195,4 @@ class APP_Meta_Box extends scbPostMetabox {
 	}
 
 }
+
